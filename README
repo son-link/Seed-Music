@@ -1,0 +1,16 @@
+Seed Music
+2012 Alfonso Saavedra "Son Link" <sonlink.dourden@gmail.com>
+
+Seed Music is a fork of Unseed Music (Created by Daemon Freedoom and me), a random music player for Linux terminals.
+This fork include a new interface use the Curses library, keyboard shortcuts and more.
+
+Install:
+
+You need this packages for running Seed Music (Note: the name of this packeges change in many linux distributions):
+
+Python 2.7
+Python-gstreamer
+python-curses
+Gstramer-bad for mp3 support (other music files need another Gstreamer plugins)
+
+for running, simply execute seedmusic.py <dir>. Foe example: ./seedmusic.py /home/user/Music
